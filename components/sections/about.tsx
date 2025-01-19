@@ -8,7 +8,7 @@ export function About() {
       <div className="relative mb-6">
         <div className="relative w-28 h-28 rounded-full overflow-hidden ring-2 ring-zinc-200 dark:ring-zinc-800 mx-auto transform hover:scale-105 transition-all duration-300 hover:ring-4">
           <Image
-            src="/profile.jpg"
+            src="/emrekentli-com/profile.jpg"
             alt="Emre Kentli"
             fill
             className="object-cover transform hover:scale-110 transition-transform duration-500"
