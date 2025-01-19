@@ -45,7 +45,7 @@ export function Career() {
       company: "@Venhancer",
       location: "İstanbul, Türkiye",
       period: "Temmuz 2023 - Kasım 2023",
-      description: "FibaEmeklilik sigorta projesi için REST API'ler geliştirdim. Spring Boot kullanarak Redis, EDD ve DDD teknolojileri ile çalıştım."
+      description: "FibaSigorta projesi için REST API'ler geliştirdim. Spring Boot kullanarak Redis, EDD ve DDD teknolojileri ile çalıştım."
     },
     {
       title: "Jr. Full Stack Developer",
