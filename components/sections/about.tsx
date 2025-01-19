@@ -28,7 +28,7 @@ export function About() {
 
       <div className="text-center space-y-3 text-sm relative">
         <p className="text-zinc-600 dark:text-zinc-400">
-          Merhaba 👋, şu anda <Link href="https://www.yapikredi.com.tr" className="text-black dark:text-white hover:underline font-medium">@Yapı Kredi Teknoloji</Link>'de <Link href="https://infonal.com" className="text-black dark:text-white hover:underline font-medium">@Infonal</Link> bünyesinde Software Engineer olarak çalışıyorum.
+          Merhaba 👋, şu anda <Link href="https://www.yapikredi.com.tr" className="text-black dark:text-white hover:underline font-medium">@Yapı Kredi Teknoloji</Link>&apos;de <Link href="https://infonal.com" className="text-black dark:text-white hover:underline font-medium">@Infonal</Link> bünyesinde Software Engineer olarak çalışıyorum.
         </p>
         <p className="text-zinc-600 dark:text-zinc-400">
           Kart Yetkilendirme uygulamaları geliştirme ve bakımı üzerine çalışıyorum.

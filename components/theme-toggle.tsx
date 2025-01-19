@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 
 export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
-  const { setTheme, theme, resolvedTheme } = useTheme();
+  const { setTheme, theme } = useTheme();
   const controlsSun = useAnimation();
   const controlsMoon = useAnimation();
   const controlsContrast = useAnimation();
