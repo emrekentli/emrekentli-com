@@ -31,7 +31,7 @@ export function Career() {
       company: "@Yapı Kredi Teknoloji via @Infonal",
       location: "İstanbul, Türkiye",
       period: "Eylül 2024 - Güncel",
-      description: "Kart Yetkilendirme uygulamalarının geliştirilmesi ve bakımında görev alıyorum. .NET, Spring Boot ve C++ teknolojilerini kullanarak uygulamaların performansını artırmak için optimizasyonlar yapıyorum."
+      description: "Kart Provizyon uygulamalarının geliştirilmesi ve bakımında görev alıyorum. .NET, Spring Boot ve C++ teknolojilerini kullanarak uygulamaların performansını artırmak için optimizasyonlar yapıyorum."
     },
     {
       title: "Software Developer",

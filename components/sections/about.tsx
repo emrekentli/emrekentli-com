@@ -31,7 +31,7 @@ export function About() {
           Merhaba 👋, şu anda <Link href="https://www.yapikredi.com.tr" className="text-black dark:text-white hover:underline font-medium">@Yapı Kredi Teknoloji</Link>&apos;de <Link href="https://infonal.com" className="text-black dark:text-white hover:underline font-medium">@Infonal</Link> bünyesinde Software Engineer olarak çalışıyorum.
         </p>
         <p className="text-zinc-600 dark:text-zinc-400">
-          Kart Yetkilendirme uygulamaları geliştirme ve bakımı üzerine çalışıyorum.
+          Kart Provizyon uygulamaları geliştirme ve bakımı üzerine çalışıyorum.
         </p>
       </div>
 
