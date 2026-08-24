@@ -23,5 +23,5 @@ npm run build
 npm audit
 ```
 
-Proje statik olarak dışa aktarılır. GitHub Actions ortamında `/emrekentli-com`
-base path'i otomatik olarak etkinleşir; yerel geliştirmede kök yol kullanılır.
+Proje statik olarak dışa aktarılır. GitHub Pages'in bildirdiği `base_path`
+derleme sırasında otomatik kullanılır; yerel geliştirmede kök yol kullanılır.

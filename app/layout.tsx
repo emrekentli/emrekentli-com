@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { siteUrl } from "@/lib/site";
 import "./globals.css";
-const siteUrl = "https://emrekentli.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: "Emre Kentli — Software Engineer", template: "%s — Emre Kentli" },
