@@ -78,11 +78,11 @@ const roles = [
 ] as const;
 
 const stack = [
-  ["Backend", "Java · Go · Spring · JPA · Hibernate · .NET"],
+  ["Backend", "Java · Go · Spring · Spring Security · JPA · Hibernate · .NET"],
   ["Architecture", "Microservices · DDD · EDA · Unit Testing"],
   ["Messaging", "Kafka · RabbitMQ · Redis · Hazelcast"],
   ["Frontend", "Next.js · React · Vue.js · Angular"],
-  ["Data & API", "Oracle · PostgreSQL · MongoDB · REST · SOAP · gRPC"],
+  ["Data & API", "Oracle · PostgreSQL · MongoDB · REST · SOAP · WebSocket · gRPC"],
   ["Platform", "AWS · Docker · Kubernetes · CI/CD · DigitalOcean"],
 ] as const;
 
@@ -129,7 +129,16 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="marquee" aria-label="Uzmanlık alanları"><div className="marquee-track"><span>Backend Engineering</span><i>✦</i><span>Distributed Systems</span><i>✦</i><span>Event-Driven Architecture</span><i>✦</i><span>Core Banking</span><i>✦</i><span aria-hidden="true">Backend Engineering</span><i aria-hidden="true">✦</i><span aria-hidden="true">Distributed Systems</span><i aria-hidden="true">✦</i></div></div>
+        <div className="marquee" aria-label="Uzmanlık alanları">
+          <div className="marquee-track">
+            <div className="marquee-group">
+              <span>Backend Engineering</span><i>✦</i><span>Distributed Systems</span><i>✦</i><span>Event-Driven Architecture</span><i>✦</i><span>Core Banking</span><i>✦</i>
+            </div>
+            <div className="marquee-group" aria-hidden="true">
+              <span>Backend Engineering</span><i>✦</i><span>Distributed Systems</span><i>✦</i><span>Event-Driven Architecture</span><i>✦</i><span>Core Banking</span><i>✦</i>
+            </div>
+          </div>
+        </div>
 
         <section id="about" className="about section-shell section-pad" aria-labelledby="about-title">
           <div className="section-kicker"><span>01</span> Hakkımda</div>
