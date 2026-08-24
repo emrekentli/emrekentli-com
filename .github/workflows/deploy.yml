@@ -73,7 +73,15 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
+      - name: Security audit
+        run: npm audit --audit-level=high
+
+      - name: Validate source
+        run: npm run lint && npm run typecheck
+
       - name: Build with Next.js
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
       - name: Upload artifact
